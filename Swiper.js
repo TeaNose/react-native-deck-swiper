@@ -622,14 +622,7 @@ class Swiper extends Component {
   render () {
     return (
       <View
-        style={[
-          styles.container,
-          {
-            backgroundColor: this.props.backgroundColor,
-            marginTop: this.props.marginTop,
-            marginBottom: this.props.marginBottom
-          }
-        ]}
+        style={this.props.containerStyle}
       >
         {this.renderChildren()}
         {this.renderFirstCard()}
