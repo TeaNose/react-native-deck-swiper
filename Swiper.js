@@ -628,7 +628,8 @@ class Swiper extends Component {
             backgroundColor: this.props.backgroundColor,
             marginTop: this.props.marginTop,
             marginBottom: this.props.marginBottom
-          }
+          },
+          this.props.styleContainer,
         ]}
       >
         {this.renderChildren()}
